@@ -1,0 +1,78 @@
+<html>
+<head>
+	<link href="demo.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p style="color: white">
+                    </p>
+                    <h2 class="section-heading">Contact Us</h2>
+                </div>
+            </div>
+            <div class="contactinner">
+                <div class="col-md-4">
+                    <h4 style="color: white">Contact No.</h4>
+                    <a href="tel:+91 8530308832">Tanay Shah: +91-8530308832</a>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="color: white">E-mail</h4>
+                    <a href="mailto:rainams98@gmail.com">rainams98@gmail.com</a>
+                </div>
+                <div class="col-md-4">
+                    <h4 style="color: white">Address</h4>
+                    <a href="https://goo.gl/maps/kw2CYPSyxVm">A-101,Avani Complex,Naranpura-380013,Ahmedabad,Gujarat,India</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form class="gform pure-form pure-form-stacked" method="POST" data-email="rainams98@gmail.com" action="https://script.google.com/macros/s/AKfycbyk0eDqWNEMeh27OG9mWHZa4S01PRyVD7gZz9OIgg/exec">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input id="name" type="text" style="color: black;" class="form-control" placeholder="Your Name *" required="" data-validation-required-message="Please enter your name." id="name" name="name">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input id="email" type="email" style="color: black;" class="form-control" placeholder="Your Email *" required="" data-validation-required-message="Please enter your email address." id="email" name="email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input id="sub" type="text" style="color: black;" class="form-control" placeholder="Subject *" required="" data-validation-required-message="Please enter the subject." id="subject" name="subject">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="msg class="form-control" style="color: black;" placeholder="Your Message *" required="" data-validation-required-message="Please enter a message." id="message" name="message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button class="btn btn-xl" id="send_msg" enable="">Send Message</button>
+                            </div>
+                        </div>
+                        <div class="thankyou_message" id="say_thanks" style="display:none;">
+                            <center>
+                            <h4 style="color:white">Thanks for contacting us!
+                            We will get back to you soon!</h4>
+                            </center>
+                        </div>
+                    </form>
+                        <!-- Submit the Form to Google Using "AJAX" -->
+                        <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+</html>
